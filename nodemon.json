@@ -1,0 +1,14 @@
+{
+  "restartable": "rs",
+  "watch": ["src"],
+  "ext": "ts, js",
+  "exec": "ts-node --transpile-only src/index.ts",
+  "delay": "2500",
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": 4000
+  },
+  "events": {
+    "crash": "fuser -k 4000/tcp; yarn start"
+  }
+}
