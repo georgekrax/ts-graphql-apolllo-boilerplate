@@ -43,7 +43,7 @@
     "ioredis": "^4.16.3",
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
-    "pg": "^8.0.3",
+    "pg": "^8.5.1",
     "reflect-metadata": "^0.1.13",
     "tslib": "^2.0.0",
     "typeorm": "^0.2.29",
