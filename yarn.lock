@@ -68,10 +68,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@nexus/schema@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@nexus/schema/-/schema-0.15.0.tgz#4f444417a1163a09d732e5b3b203f22780f4ae63"
-  integrity sha512-Q3JYHlxvQ24z5vGfDbEOT7Q+zIFYvnuPv14jNdQ/KCRk6YQODPD/nSQilfFJW+9CBIhZhWZACjbeALRKFLCwjg==
+"@nexus/schema@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@nexus/schema/-/schema-0.18.0.tgz#9c7d13a0e009b9539d395c858ee3fb3492c5e02a"
+  integrity sha512-EVV9bAFWDqDZGnd0XXhsKlbiDr9jl99FKWJGHcYQ7yJP2oYdP9kRZP2SOo7x7aZWko0bw8wP4d53ScjpR2vxyg==
   dependencies:
     iterall "^1.2.2"
     tslib "^1.9.3"
@@ -1997,12 +1997,17 @@ graphql-upload@^8.0.2:
     http-errors "^1.7.3"
     object-path "^0.11.4"
 
-graphql@^14.5.3, graphql@^14.7.0:
+graphql@^14.5.3:
   version "14.7.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.7.0.tgz#7fa79a80a69be4a31c27dda824dc04dac2035a72"
   integrity sha512-l0xWZpoPKpppFzMfvVyFmp9vLN7w/ZZJPefUicMCepfJeQ8sMcztloGYY9DfjVPo6tIUDzU5Hw3MUbIjj9AVVA==
   dependencies:
     iterall "^1.2.2"
+
+graphql@^15.4.0:
+  version "15.4.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.4.0.tgz#e459dea1150da5a106486ba7276518b5295a4347"
+  integrity sha512-EB3zgGchcabbsU9cFe1j+yxdzKQKAbGUWRb13DsrsMN1yyfmmIq+2+L5MqVWcDCE4V89R5AyUOi7sMOGxdsYtA==
 
 has-ansi@^2.0.0:
   version "2.0.0"
